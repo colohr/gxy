@@ -1,0 +1,15 @@
+{
+  "name": "gxy",
+  "version": "0.0.1",
+  "description": "Graph Client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-client": "^1.9.0-0",
+    "graphql-tag": "^2.4.2"
+  }
+}
