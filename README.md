@@ -4,5 +4,5 @@ GXY
 Install `gxy` 
 -------------
 ```
-  npm i gxy
+  npm uninstall gxy
 ```

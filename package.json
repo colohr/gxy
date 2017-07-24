@@ -3,13 +3,41 @@
   "version": "0.0.1",
   "description": "Graph Client",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colohr/gxy.git"
   },
-  "author": "",
+  "keywords": [],
+  "author": "colohr",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colohr/gxy/issues"
+  },
+  "homepage": "https://github.com/colohr/gxy#readme",
+  "scripts": {
+    "start": "webpack-dev-server --inline --hot --port 3000",
+    "build": "webpack --progress --hide-modules"
+  },
   "dependencies": {
-    "apollo-client": "^1.9.0-0",
-    "graphql-tag": "^2.4.2"
+    "apollo-client": "^1.7.0",
+    "graphql-tag": "^2.4.2",
+    "isomorphic-fetch": "^2.2.1",
+    "moment": "^2.18.1",
+    "node-emoji": "^1.5.1",
+    "polymer-apollo": "^2.0.0-rc.6",
+    "subscriptions-transport-ws": "^0.7.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.8.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "cross-env": "^1.0.6",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.4",
+    "json-loader": "^0.5.4",
+    "offline-plugin": "^4.5.3",
+    "wc-loader": "^1.1.3",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.2.0"
   }
 }
