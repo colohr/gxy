@@ -16,15 +16,15 @@
   "homepage": "https://github.com/colohr/gxy#readme",
   "scripts": {
     "start": "webpack-dev-server --inline --hot --port 3000",
-    "build": "webpack --progress --hide-modules"
+    "build": "webpack --progress --hide-modules",
+    "client": "cd client && webpack --progress --hide-modules"
   },
   "dependencies": {
-    "apollo-client": "^1.7.0",
+    "apollo-client": "^1.9.0",
+    "graphql-request": "^1.3.3",
     "graphql-tag": "^2.4.2",
     "isomorphic-fetch": "^2.2.1",
     "moment": "^2.18.1",
-    "node-emoji": "^1.5.1",
-    "polymer-apollo": "^2.0.0-rc.6",
     "subscriptions-transport-ws": "^0.7.3"
   },
   "devDependencies": {
