@@ -1,6 +1,6 @@
 {
   "name": "gxy",
-  "version": "0.0.1",
+  "version": "0.0.11",
   "description": "Graph Client",
   "main": "index.js",
   "repository": {
@@ -15,29 +15,19 @@
   },
   "homepage": "https://github.com/colohr/gxy#readme",
   "scripts": {
-    "start": "webpack-dev-server --inline --hot --port 3000",
     "build": "webpack --progress --hide-modules",
-    "client": "cd client && webpack --progress --hide-modules"
+    "client": "webpack --progress --hide-modules"
   },
   "dependencies": {
-    "apollo-client": "^1.9.0",
     "graphql-request": "^1.3.3",
     "graphql-tag": "^2.4.2",
-    "isomorphic-fetch": "^2.2.1",
-    "moment": "^2.18.1",
-    "subscriptions-transport-ws": "^0.7.3"
+    "isomorphic-fetch": "^2.2.1"
   },
   "devDependencies": {
     "babel-core": "^6.8.0",
     "babel-loader": "^6.2.4",
     "babel-preset-es2015": "^6.6.0",
-    "cross-env": "^1.0.6",
-    "css-loader": "^0.23.1",
-    "file-loader": "^0.8.4",
     "json-loader": "^0.5.4",
-    "offline-plugin": "^4.5.3",
-    "wc-loader": "^1.1.3",
-    "webpack": "^2.2.0",
-    "webpack-dev-server": "^2.2.0"
+    "webpack": "^2.2.0"
   }
 }
